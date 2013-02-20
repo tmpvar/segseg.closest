@@ -1,0 +1,29 @@
+{
+  "name": "segseg.closest",
+  "version": "0.0.1",
+  "description": "Compute the closest point between two line segments",
+  "main": "segseg.closest.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/segseg.closest.git"
+  },
+  "keywords": [
+    "2d",
+    "math",
+    "intersection",
+    "segments",
+    "line",
+    "segments"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vec2": "~1.0.3"
+  }
+}
